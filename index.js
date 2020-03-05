@@ -1,4 +1,4 @@
-const API_URL_BASE = "http://localhost:30006";
+const API_URL_BASE = "https://pk-chat-lp.herokuapp.com";
 const GET_ALL_MSGS = "/messages";
 const GET_MSG = "/message";
 
