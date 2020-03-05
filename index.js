@@ -45,7 +45,7 @@ function requestNewMessage(){
     let url = API_URL_BASE + GET_MSG;
     console.log("url:",url);
     request.open("GET", url, true);
-    request.timeout = 120000;
+    request.timeout = 25000;
     request.addEventListener("load", function () {
         if (request.status == 200) {
             if (request.readyState == XMLHttpRequest.DONE) {
