@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Chat Application Using Long Polling</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div class="main">
+            <div class="title-wrapper">
+                <h2>Simple Chat Application Using Long Polling</h2>
+            </div>
+            <div class="chat-box-wrapper" id="chat-box">
+
+            </div>
+            <div class="send-wrapper">
+                <div class="user-box">
+                    <input type="text" placeholder="Name" id="sender"/>
+                </div>
+                <div class="msg-box">
+                    <input type="text" placeholder="Message" id="new-msg"/>
+                </div>
+                <div class="send-box">
+                    <div class="send-btn" onclick="sendMessage()">Send</div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
